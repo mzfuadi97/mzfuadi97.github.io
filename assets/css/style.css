@@ -17,7 +17,11 @@ a {
   color: #3498db;
   text-decoration: none;
 }
-
+p {
+  font-size: 20px;
+  line-height: 30px;
+  color: #2a2a2a;
+}
 a:hover {
   color: #5faee3;
   text-decoration: none;
@@ -317,7 +321,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero h2 em{
   color: #3498db;
   margin-bottom: 10px;
-  font-size: 35px;
+  font-size: 45px;
   font-weight: 700;
 }
 #hero .btn-get-started {
@@ -404,7 +408,7 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 35px 0;
   overflow: hidden;
 }
 
@@ -1406,14 +1410,31 @@ img {
 }
 #about h2 {
   color: #2a2a2a;
-  font-size: 25px;
-  font-weight: 700;
-
+  font-size: 35px;
 }
 
-#about h2 em{
+#about h2 em {
   color: #3498db;
- 
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 700;
+}
+
+#about #more-services p {
+  text-align: justify;
+}
+
+#more-services p {
+  text-align: justify;
+}
+#services h2  {
+  color: #2a2a2a;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+}
+#services h2 em {
+  color: #3498db;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
 }
