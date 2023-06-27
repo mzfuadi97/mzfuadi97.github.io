@@ -10268,3 +10268,30 @@ h6,
 .portfolio-details .portfolio-description p {
   padding: 0;
 }
+
+.warning-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffcc00;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: none;
+}
+
+.warning-content {
+  color: #333;
+}
+
+.warning-content h2 {
+  margin-top: 0;
+  font-size: 24px;
+}
+
+.warning-content p {
+  margin-bottom: 0;
+  font-size: 18px;
+}
