@@ -9,7 +9,7 @@ window.addEventListener('load', function() {
   warningHeading.innerText = 'Warning';
 
   var warningMessage = document.createElement('p');
-  warningMessage.innerText = 'Halaman ini sedang lagi penambahan portfolio project dari pekerjaan-pekerjaan sebelumnya, jika ingin memastikan bisa hubungi linkedin.';
+  warningMessage.innerText = 'Halaman ini sedang lagi penambahan portfolio project dari pekerjaan-pekerjaan sebelumnya, jika ingin memastikan bisa hubungi melalui linkedin saya, terima kasih.';
 
   var okButton = document.createElement('button');
   okButton.innerText = 'OK';
