@@ -10295,3 +10295,16 @@ h6,
   margin-bottom: 0;
   font-size: 18px;
 }
+
+.portfolio-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Membagi ruang menjadi 3 kolom yang sama lebar */
+    grid-gap: 20px; /* Jarak antara item */
+   
+}
+
+/* Atur lebar untuk item yang memiliki class "right" */
+.portfolio-item.right {
+    left: auto;
+    right: 0;
+}
