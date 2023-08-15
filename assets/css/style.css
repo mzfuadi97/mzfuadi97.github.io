@@ -10270,6 +10270,7 @@ h6,
 }
 
 .warning-container {
+  z-index: 3; /* Atur nilai z-index yang lebih tinggi dari portfolio dan certificate */
   position: fixed;
   top: 50%;
   left: 50%;
@@ -10307,4 +10308,23 @@ h6,
 .portfolio-item.right {
     left: auto;
     right: 0;
+}
+
+#portfolio {
+  z-index: 1;
+  position: relative ;
+}
+
+#certificate {
+  z-index: 2;
+  position: relative ;
+}
+
+.tidak_timpa {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.filter-python.right .position-relative.overflow-hidden.mb-2 img {
+  max-width: 100%;
 }
