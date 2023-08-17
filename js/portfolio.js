@@ -35,6 +35,10 @@ document.addEventListener('DOMContentLoaded', function() {
   
     // Terapkan filter portofolio yang sudah dipilih pada peringatan
     applyPortfolioFilter(selectedFilter);
+    
+    // Otomatis mengklik tombol "All" pada filter
+    var allFilter = document.querySelector('#portfolio-flters li[data-filter="*"]');
+    allFilter.click();
   });
 });
 
