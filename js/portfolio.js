@@ -63,4 +63,28 @@ document.addEventListener('click', function(event) {
     selectedFilter = filter; // Update the selected filter
     applyPortfolioFilter(filter);
   }
+
+
+  document.addEventListener('DOMContentLoaded', function() {
+    // Kode peringatan seperti sebelumnya...
+    
+    var okButton = document.querySelector('.warning-content button');
+  
+    okButton.addEventListener('click', function() {
+      // Menampilkan konten utama setelah interaksi "OK"
+      var content = document.getElementById('portfolio');
+      content.style.display = 'block';
+    
+      // Aktifkan filter portofolio
+      enablePortfolioFilters();
+    
+      // Terapkan filter portofolio yang sudah dipilih pada peringatan
+      applyPortfolioFilter(selectedFilter);
+      
+      // Otomatis mengklik tombol "All" pada filter
+      var allFilter = document.querySelector('#portfolio-flters li[data-filter="*"]');
+      allFilter.click();
+    });
+  });
+  
 });
